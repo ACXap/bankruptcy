@@ -1,0 +1,442 @@
+2021-03-15 13:42:37,103 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 7780 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 13:42:37,110 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 13:42:37,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 13:42:37,185 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 13:42:37,186 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 13:42:37,187 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 13:42:38,371 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 13:42:38,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 13:42:38,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 13:42:38,386 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 13:42:38,461 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 13:42:38,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1274 ms
+2021-03-15 13:42:38,693 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 13:42:38,870 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 13:42:38,881 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 13:42:38,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 13:42:38,928 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 2.393 seconds (JVM running for 3.236)
+2021-03-15 14:20:54,615 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:20:54,622 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:20:54,685 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 14:20:54,686 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 14:20:54,686 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 14:20:54,686 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 14:20:55,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:20:55,909 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:20:55,910 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:20:55,910 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:20:55,987 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:20:55,988 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1301 ms
+2021-03-15 14:20:56,218 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:20:56,431 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:20:56,443 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:20:56,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:20:56,474 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 2.505 seconds (JVM running for 3.266)
+2021-03-15 14:25:38,787 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:25:39,205 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:25:39,206 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:25:39,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:25:39,607 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:25:39,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:25:39,614 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:25:39,653 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:25:39,653 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 438 ms
+2021-03-15 14:25:39,767 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:25:39,810 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:25:39,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:25:39,822 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:25:39,826 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.89 seconds (JVM running for 286.618)
+2021-03-15 14:25:39,828 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:33:18,574 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-10] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:33:27,125 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:33:27,126 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:33:27,625 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:33:27,626 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:33:27,627 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:33:27,651 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:33:27,652 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 507 ms
+2021-03-15 14:33:27,729 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:33:27,807 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:33:27,813 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:33:27,816 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.735 seconds (JVM running for 754.608)
+2021-03-15 14:33:27,817 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:33:29,586 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:33:29,767 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:33:29,767 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:33:30,647 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:33:30,647 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:33:30,648 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:33:30,668 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:33:30,670 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 901 ms
+2021-03-15 14:33:30,740 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:33:30,769 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:33:30,778 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:33:30,786 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 1.134 seconds (JVM running for 757.578)
+2021-03-15 14:33:30,789 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:34:53,175 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:34:53,234 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:34:53,234 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:34:53,410 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:34:53,410 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:34:53,411 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:34:53,422 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:34:53,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 185 ms
+2021-03-15 14:34:53,453 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:34:53,473 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:34:53,479 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:34:53,480 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.27 seconds (JVM running for 840.273)
+2021-03-15 14:34:53,481 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:37:24,853 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-30] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:37:24,932 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:37:24,932 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:37:25,081 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:37:25,082 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:37:25,082 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:37:25,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:37:25,092 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 157 ms
+2021-03-15 14:37:25,115 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:37:25,133 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:37:25,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:37:25,140 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.23 seconds (JVM running for 991.932)
+2021-03-15 14:37:25,141 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:41:31,328 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-35] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:18,225 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:46:18,226 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:46:18,621 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:46:18,623 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:46:18,624 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:46:18,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:46:18,641 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 408 ms
+2021-03-15 14:46:18,673 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:18,696 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:46:18,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:46:18,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.578 seconds (JVM running for 1525.496)
+2021-03-15 14:46:18,704 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:46:20,246 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-45] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:20,369 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 1.8.0_282 on DESKTOP-5NQUJ3H with PID 5124 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:46:20,370 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:46:20,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:46:20,627 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:46:20,627 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 14:46:20,640 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:46:20,641 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 267 ms
+2021-03-15 14:46:20,670 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:20,696 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 14:46:20,700 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 14:46:20,702 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 0.399 seconds (JVM running for 1527.494)
+2021-03-15 14:46:20,703 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-03-15 14:46:23,064 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 23776 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 14:46:23,068 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 14:46:23,142 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 14:46:23,143 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 14:46:23,144 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 14:46:23,145 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 14:46:24,205 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 14:46:24,213 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:46:24,214 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 14:46:24,214 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 14:46:24,282 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 14:46:24,282 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1135 ms
+2021-03-15 14:46:24,439 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:24,594 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-03-15 14:46:24,603 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:46:24,616 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-03-15 14:46:24,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 14:46:24,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:46:24,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-03-15 14:46:24,623 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:46:24,624 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2021-03-15 14:46:24,630 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-15 14:46:24,643 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-03-15 16:00:57,062 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 18700 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 16:00:57,065 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 16:00:57,140 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 16:00:57,141 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 16:00:57,147 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 16:00:57,149 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 16:00:58,030 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bdace7de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 16:00:58,079 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-15 16:00:58,476 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:00:58,487 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:00:58,488 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 16:00:58,488 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 16:00:58,561 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:00:58,562 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1411 ms
+2021-03-15 16:00:58,817 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:00:58,955 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 16:00:59,173 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 16:00:59,186 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:00:59,214 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 16:00:59,225 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 2.698 seconds (JVM running for 4.285)
+2021-03-15 16:00:59,893 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-15 16:00:59,914 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:807)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:788)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.rt.bankruptcy.BankruptcyApplication.main(BankruptcyApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.ws.client.core.WebServiceTemplate.handleError(WebServiceTemplate.java:699)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:609)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:378)
+	at com.rt.bankruptcy.repository.SoapConnector.callWebService(SoapConnector.java:7)
+	at com.rt.bankruptcy.BankruptcyApplication.lambda$lookup$0(BankruptcyApplication.java:27)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:804)
+	... 10 common frames omitted
+2021-03-15 16:00:59,985 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 16:09:39,686 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 24164 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 16:09:39,691 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 16:09:39,765 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 16:09:39,766 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 16:09:39,767 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 16:09:39,767 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 16:09:40,604 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e2f26eb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 16:09:40,644 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-15 16:09:41,004 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:09:41,014 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:09:41,014 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 16:09:41,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 16:09:41,105 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:09:41,105 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1337 ms
+2021-03-15 16:09:41,386 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:09:41,401 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:09:53,752 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+2021-03-15 16:09:53,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-03-15 16:09:53,771 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-15 16:09:53,791 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.rt.bankruptcy.BankruptcyApplication.main(BankruptcyApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 25 common frames omitted
+Caused by: org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.ws.client.core.WebServiceTemplate.handleError(WebServiceTemplate.java:699)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:609)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:378)
+	at com.rt.bankruptcy.repository.SoapConnector.callWebService(SoapConnector.java:7)
+	at com.rt.bankruptcy.repository.BankruptcyClient.<init>(BankruptcyClient.java:18)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 27 common frames omitted
+2021-03-15 16:12:26,754 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 17128 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 16:12:26,758 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 16:12:26,826 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 16:12:26,826 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 16:12:26,827 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 16:12:26,828 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 16:12:27,551 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e2f26eb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 16:12:27,594 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-15 16:12:27,953 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:12:27,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:12:27,966 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 16:12:27,966 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 16:12:28,050 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:12:28,051 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1223 ms
+2021-03-15 16:12:28,357 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:12:38,831 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:12:39,435 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+2021-03-15 16:12:39,438 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-03-15 16:12:39,450 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-15 16:12:39,472 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.rt.bankruptcy.BankruptcyApplication.main(BankruptcyApplication.java:9)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 25 common frames omitted
+Caused by: org.springframework.ws.client.WebServiceTransportException: Access Denied [401]
+	at org.springframework.ws.client.core.WebServiceTemplate.handleError(WebServiceTemplate.java:699)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:609)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:378)
+	at com.rt.bankruptcy.repository.SoapConnector.callWebService(SoapConnector.java:7)
+	at com.rt.bankruptcy.repository.BankruptcyClient.<init>(BankruptcyClient.java:18)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 27 common frames omitted
+2021-03-15 16:21:36,720 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 21608 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 16:21:36,726 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 16:21:36,804 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 16:21:36,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 16:21:36,806 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 16:21:36,806 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 16:21:37,640 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7c396184] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 16:21:37,684 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-15 16:21:38,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:21:38,137 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:21:38,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 16:21:38,139 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 16:21:38,228 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:21:38,229 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1422 ms
+2021-03-15 16:21:38,526 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:21:38,690 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:21:39,370 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.soap.client.SoapFaultClientException: В процессе обработки запроса произошла ошибка.
+2021-03-15 16:21:39,377 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-03-15 16:21:39,391 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-15 16:21:39,419 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankruptcyClient' defined in file [D:\java\bankruptcy\target\classes\com\rt\bankruptcy\repository\BankruptcyClient.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.soap.client.SoapFaultClientException: В процессе обработки запроса произошла ошибка.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.rt.bankruptcy.BankruptcyApplication.main(BankruptcyApplication.java:9)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.rt.bankruptcy.repository.BankruptcyClient]: Constructor threw exception; nested exception is org.springframework.ws.soap.client.SoapFaultClientException: В процессе обработки запроса произошла ошибка.
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 25 common frames omitted
+Caused by: org.springframework.ws.soap.client.SoapFaultClientException: В процессе обработки запроса произошла ошибка.
+	at org.springframework.ws.soap.client.core.SoapFaultMessageResolver.resolveFault(SoapFaultMessageResolver.java:38)
+	at org.springframework.ws.client.core.WebServiceTemplate.handleFault(WebServiceTemplate.java:830)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:624)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:378)
+	at com.rt.bankruptcy.repository.SoapConnector.callWebService(SoapConnector.java:7)
+	at com.rt.bankruptcy.repository.BankruptcyClient.<init>(BankruptcyClient.java:18)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 27 common frames omitted
+2021-03-15 16:24:46,162 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BankruptcyApplication using Java 14.0.2 on DESKTOP-5NQUJ3H with PID 11572 (D:\java\bankruptcy\target\classes started by 1 in D:\java\bankruptcy)
+2021-03-15 16:24:46,179 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-15 16:24:46,255 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\com\sun\xml\ws\jaxws-rt\2.3.3\jaxws-rt-2.3.3.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.annotation-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.activation.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.jws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.bind-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.ws-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jakarta.xml.soap-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/FastInfoset.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/gmbal.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/ha-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxb-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/management-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/mimepull.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-basic.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/pfl-tf.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/policy.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/saaj-impl.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax-ex.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/stax2-api.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/streambuffer.jar,file:/C:/Users/1/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/woodstox-core.jar
+2021-03-15 16:24:46,255 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\1\.m2\repository\org\glassfish\ha\ha-api\3.1.12\ha-api-3.1.12.jar referenced one or more files that do not exist: file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-core.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/class-model.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/config.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/tiger-types.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/bean-validator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/jtype.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/auto-depends.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/asm-all-repackaged.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/hk2-api.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/osgi-resource-locator.jar,file:/C:/Users/1/.m2/repository/org/glassfish/ha/ha-api/3.1.12/javax.inject.jar
+2021-03-15 16:24:46,256 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-15 16:24:46,257 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-15 16:24:47,073 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7c396184] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 16:24:47,117 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-15 16:24:47,527 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:24:47,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:24:47,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-03-15 16:24:47,543 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-15 16:24:47,632 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:24:47,633 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1375 ms
+2021-03-15 16:24:47,938 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:24:48,107 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [restartedMain] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-03-15 16:25:04,889 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 16:25:05,184 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-15 16:25:05,201 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:25:05,232 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 16:25:05,243 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BankruptcyApplication in 19.736 seconds (JVM running for 20.557)
+2021-03-15 16:31:32,875 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
