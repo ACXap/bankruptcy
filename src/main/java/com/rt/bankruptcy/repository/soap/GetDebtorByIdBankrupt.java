@@ -1,3 +1,4 @@
+
 package com.rt.bankruptcy.repository.soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -5,11 +6,12 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+
 /**
  * <p>Java class for anonymous complex type.
- *
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
- *
+ * 
  * <pre>
  * &lt;complexType&gt;
  *   &lt;complexContent&gt;
@@ -21,9 +23,13 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {"idBankrupt"})
+@XmlType(name = "", propOrder = {
+    "idBankrupt"
+})
 @XmlRootElement(name = "GetDebtorByIdBankrupt")
 public class GetDebtorByIdBankrupt {
 
@@ -31,6 +37,7 @@ public class GetDebtorByIdBankrupt {
 
     /**
      * Gets the value of the idBankrupt property.
+     * 
      */
     public int getIdBankrupt() {
         return idBankrupt;
@@ -38,8 +45,10 @@ public class GetDebtorByIdBankrupt {
 
     /**
      * Sets the value of the idBankrupt property.
+     * 
      */
     public void setIdBankrupt(int value) {
         this.idBankrupt = value;
     }
+
 }

@@ -1,3 +1,4 @@
+
 package com.rt.bankruptcy.repository.soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -6,11 +7,12 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
+
 /**
  * <p>Java class for TradePlace complex type.
- *
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
- *
+ * 
  * <pre>
  * &lt;complexType name="TradePlace"&gt;
  *   &lt;complexContent&gt;
@@ -26,9 +28,13 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "TradePlace", propOrder = {"tradeList"})
+@XmlType(name = "TradePlace", propOrder = {
+    "tradeList"
+})
 public class TradePlace {
 
     @XmlElement(name = "TradeList")
@@ -44,9 +50,11 @@ public class TradePlace {
 
     /**
      * Gets the value of the tradeList property.
-     *
-     * @return possible object is
-     * {@link ArrayOfTrade }
+     * 
+     * @return
+     *     possible object is
+     *     {@link ArrayOfTrade }
+     *     
      */
     public ArrayOfTrade getTradeList() {
         return tradeList;
@@ -54,9 +62,11 @@ public class TradePlace {
 
     /**
      * Sets the value of the tradeList property.
-     *
-     * @param value allowed object is
-     *              {@link ArrayOfTrade }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link ArrayOfTrade }
+     *     
      */
     public void setTradeList(ArrayOfTrade value) {
         this.tradeList = value;
@@ -64,9 +74,11 @@ public class TradePlace {
 
     /**
      * Gets the value of the inn property.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getINN() {
         return inn;
@@ -74,9 +86,11 @@ public class TradePlace {
 
     /**
      * Sets the value of the inn property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setINN(String value) {
         this.inn = value;
@@ -84,9 +98,11 @@ public class TradePlace {
 
     /**
      * Gets the value of the name property.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getName() {
         return name;
@@ -94,9 +110,11 @@ public class TradePlace {
 
     /**
      * Sets the value of the name property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setName(String value) {
         this.name = value;
@@ -104,9 +122,11 @@ public class TradePlace {
 
     /**
      * Gets the value of the site property.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getSite() {
         return site;
@@ -114,9 +134,11 @@ public class TradePlace {
 
     /**
      * Sets the value of the site property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setSite(String value) {
         this.site = value;
@@ -124,9 +146,11 @@ public class TradePlace {
 
     /**
      * Gets the value of the ownerName property.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getOwnerName() {
         return ownerName;
@@ -134,9 +158,11 @@ public class TradePlace {
 
     /**
      * Sets the value of the ownerName property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setOwnerName(String value) {
         this.ownerName = value;
