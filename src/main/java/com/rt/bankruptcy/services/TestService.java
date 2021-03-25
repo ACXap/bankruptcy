@@ -1,20 +1,15 @@
 package com.rt.bankruptcy.services;
 
 import com.rt.bankruptcy.repository.RepositoryBankruptcy;
-import com.rt.bankruptcy.repository.soap.DebtorRegisterItem;
+import com.rt.bankruptcy.repository.MessageData;
 import org.springframework.stereotype.Service;
-
-import javax.xml.datatype.DatatypeConfigurationException;
-import java.util.Date;
-import java.util.List;
 
 @Service
 public class TestService {
 
     public TestService(RepositoryBankruptcy repository) throws Exception {
 
-        String message = repository.getMessage(1660549);
-        System.out.println(message);
+        MessageData message = repository.getMessage(1660549);
 
 //        DebtorRegisterItem debtor = repository.getDebtorByIdBankrupt(138895);
 //

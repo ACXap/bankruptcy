@@ -4,6 +4,8 @@ import com.rt.bankruptcy.repository.soap.MessageService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Date;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class RepositoryBankruptcyTest {
@@ -16,7 +18,12 @@ class RepositoryBankruptcyTest {
 
     @Test
     void getMessage() throws Exception {
-        String message = repo.getMessage(1660549);
-        System.out.println(message);
+        repo.getMessage(1660549);
+
+    }
+
+    @Test
+    void testGetMessage() throws Exception {
+        repo.getMessage(138895, new Date(0));
     }
 }

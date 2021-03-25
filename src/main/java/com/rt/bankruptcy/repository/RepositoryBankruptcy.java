@@ -26,21 +26,22 @@ public class RepositoryBankruptcy {
         return debtorList.getDebtorList().getDebtorPersonOrDebtorCompany();
     }
 
-
-    public String getMessage(int id, Date startDate) throws DatatypeConfigurationException {
+    public CollectionMessageDate getMessage(int id, Date startDate) throws Exception {
         XMLGregorianCalendar gDateFormatted1 =
                 DatatypeFactory.newInstance().newXMLGregorianCalendar(new SimpleDateFormat("yyyy-MM-dd").format(startDate));
 
         String debtorMessagesContentForPeriodByIdBankrupt = messageServiceProxy.getDebtorMessagesContentForPeriodByIdBankrupt(id, gDateFormatted1);
-        return debtorMessagesContentForPeriodByIdBankrupt;
+
+        CollectionMessageDate deserialize = new XmlService().Deserialize(debtorMessagesContentForPeriodByIdBankrupt, CollectionMessageDate.class);
+
+        return deserialize;
     }
 
-   public String getMessage(int id) throws Exception {
+   public MessageData getMessage(int id) throws Exception {
        String messageContent = messageServiceProxy.getMessageContent(1660549);
-
 
       MessageData deserialize = new XmlService().Deserialize(messageContent, MessageData.class);
 
-       return messageContent;
+       return deserialize;
    }
 }
