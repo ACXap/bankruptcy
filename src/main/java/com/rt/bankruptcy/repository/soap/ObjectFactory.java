@@ -1,4 +1,3 @@
-
 package com.rt.bankruptcy.repository.soap;
 
 import javax.xml.bind.annotation.XmlRegistry;
@@ -20,7 +19,6 @@ import javax.xml.bind.annotation.XmlRegistry;
  */
 @XmlRegistry
 public class ObjectFactory {
-
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: ru.demo.bankrupts.soap.ws.client.generated
@@ -93,21 +91,21 @@ public class ObjectFactory {
         return new GetTradeMessages();
     }
 
-    /**
-     * Create an instance of {@link GetTradeMessagesResponse }
-     * 
-     */
-    public GetTradeMessagesResponse createGetTradeMessagesResponse() {
-        return new GetTradeMessagesResponse();
-    }
+//    /**
+//     * Create an instance of {@link GetTradeMessagesResponse }
+//     *
+//     */
+//    public GetTradeMessagesResponse createGetTradeMessagesResponse() {
+//        return new GetTradeMessagesResponse();
+//    }
 
-    /**
-     * Create an instance of {@link ArrayOfTradePlace }
-     * 
-     */
-    public ArrayOfTradePlace createArrayOfTradePlace() {
-        return new ArrayOfTradePlace();
-    }
+//    /**
+//     * Create an instance of {@link ArrayOfTradePlace }
+//     *
+//     */
+//    public ArrayOfTradePlace createArrayOfTradePlace() {
+//        return new ArrayOfTradePlace();
+//    }
 
     /**
      * Create an instance of {@link GetTradeMessagesByTrade }
@@ -117,13 +115,13 @@ public class ObjectFactory {
         return new GetTradeMessagesByTrade();
     }
 
-    /**
-     * Create an instance of {@link GetTradeMessagesByTradeResponse }
-     * 
-     */
-    public GetTradeMessagesByTradeResponse createGetTradeMessagesByTradeResponse() {
-        return new GetTradeMessagesByTradeResponse();
-    }
+//    /**
+//     * Create an instance of {@link GetTradeMessagesByTradeResponse }
+//     *
+//     */
+//    public GetTradeMessagesByTradeResponse createGetTradeMessagesByTradeResponse() {
+//        return new GetTradeMessagesByTradeResponse();
+//    }
 
     /**
      * Create an instance of {@link GetArbitrManagerRegister }
@@ -181,45 +179,45 @@ public class ObjectFactory {
         return new GetCompanyTradeOrganizerRegister();
     }
 
-    /**
-     * Create an instance of {@link GetCompanyTradeOrganizerRegisterResponse }
-     * 
-     */
-    public GetCompanyTradeOrganizerRegisterResponse createGetCompanyTradeOrganizerRegisterResponse() {
-        return new GetCompanyTradeOrganizerRegisterResponse();
-    }
+//    /**
+//     * Create an instance of {@link GetCompanyTradeOrganizerRegisterResponse }
+//     *
+//     */
+//    public GetCompanyTradeOrganizerRegisterResponse createGetCompanyTradeOrganizerRegisterResponse() {
+//        return new GetCompanyTradeOrganizerRegisterResponse();
+//    }
+//
+//    /**
+//     * Create an instance of {@link TradeOrganizerList }
+//     *
+//     */
+//    public TradeOrganizerList createTradeOrganizerList() {
+//        return new TradeOrganizerList();
+//    }
 
-    /**
-     * Create an instance of {@link TradeOrganizerList }
-     * 
-     */
-    public TradeOrganizerList createTradeOrganizerList() {
-        return new TradeOrganizerList();
-    }
+//    /**
+//     * Create an instance of {@link GetSroRegister }
+//     *
+//     */
+//    public GetSroRegister createGetSroRegister() {
+//        return new GetSroRegister();
+//    }
 
-    /**
-     * Create an instance of {@link GetSroRegister }
-     * 
-     */
-    public GetSroRegister createGetSroRegister() {
-        return new GetSroRegister();
-    }
-
-    /**
-     * Create an instance of {@link GetSroRegisterResponse }
-     * 
-     */
-    public GetSroRegisterResponse createGetSroRegisterResponse() {
-        return new GetSroRegisterResponse();
-    }
-
-    /**
-     * Create an instance of {@link SROList }
-     * 
-     */
-    public SROList createSROList() {
-        return new SROList();
-    }
+//    /**
+//     * Create an instance of {@link GetSroRegisterResponse }
+//     *
+//     */
+//    public GetSroRegisterResponse createGetSroRegisterResponse() {
+//        return new GetSroRegisterResponse();
+//    }
+//
+//    /**
+//     * Create an instance of {@link SROList }
+//     *
+//     */
+//    public SROList createSROList() {
+//        return new SROList();
+//    }
 
     /**
      * Create an instance of {@link GetDebtorByIdBankrupt }
@@ -301,45 +299,45 @@ public class ObjectFactory {
         return new SearchDebtorByCodeResponse();
     }
 
-    /**
-     * Create an instance of {@link TradePlace }
-     * 
-     */
-    public TradePlace createTradePlace() {
-        return new TradePlace();
-    }
+//    /**
+//     * Create an instance of {@link TradePlace }
+//     *
+//     */
+//    public TradePlace createTradePlace() {
+//        return new TradePlace();
+//    }
 
-    /**
-     * Create an instance of {@link ArrayOfTrade }
-     * 
-     */
-    public ArrayOfTrade createArrayOfTrade() {
-        return new ArrayOfTrade();
-    }
+//    /**
+//     * Create an instance of {@link ArrayOfTrade }
+//     *
+//     */
+//    public ArrayOfTrade createArrayOfTrade() {
+//        return new ArrayOfTrade();
+//    }
 
-    /**
-     * Create an instance of {@link Trade }
-     * 
-     */
-    public Trade createTrade() {
-        return new Trade();
-    }
-
-    /**
-     * Create an instance of {@link ArrayOfTradeMessage }
-     * 
-     */
-    public ArrayOfTradeMessage createArrayOfTradeMessage() {
-        return new ArrayOfTradeMessage();
-    }
-
-    /**
-     * Create an instance of {@link TradeMessage }
-     * 
-     */
-    public TradeMessage createTradeMessage() {
-        return new TradeMessage();
-    }
+//    /**
+//     * Create an instance of {@link Trade }
+//     *
+//     */
+//    public Trade createTrade() {
+//        return new Trade();
+//    }
+//
+//    /**
+//     * Create an instance of {@link ArrayOfTradeMessage }
+//     *
+//     */
+//    public ArrayOfTradeMessage createArrayOfTradeMessage() {
+//        return new ArrayOfTradeMessage();
+//    }
+//
+//    /**
+//     * Create an instance of {@link TradeMessage }
+//     *
+//     */
+//    public TradeMessage createTradeMessage() {
+//        return new TradeMessage();
+//    }
 
     /**
      * Create an instance of {@link ArrayOfArbitrManagerRegisterItem }
@@ -437,20 +435,19 @@ public class ObjectFactory {
         return new CompanyTradeOrganizerRegisterItem();
     }
 
-    /**
-     * Create an instance of {@link ArrayOfSroRegisterItem }
-     * 
-     */
-    public ArrayOfSroRegisterItem createArrayOfSroRegisterItem() {
-        return new ArrayOfSroRegisterItem();
-    }
-
-    /**
-     * Create an instance of {@link SroRegisterItem }
-     * 
-     */
-    public SroRegisterItem createSroRegisterItem() {
-        return new SroRegisterItem();
-    }
-
+//    /**
+//     * Create an instance of {@link ArrayOfSroRegisterItem }
+//     *
+//     */
+//    public ArrayOfSroRegisterItem createArrayOfSroRegisterItem() {
+//        return new ArrayOfSroRegisterItem();
+//    }
+//
+//    /**
+//     * Create an instance of {@link SroRegisterItem }
+//     *
+//     */
+//    public SroRegisterItem createSroRegisterItem() {
+//        return new SroRegisterItem();
+//    }
 }

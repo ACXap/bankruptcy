@@ -69,45 +69,45 @@ public interface IMessageService {
         @WebParam(name = "idTradeMessage", targetNamespace = "http://tempuri.org/")
         int idTradeMessage);
 
-    /**
-     * 
-     * @param startFrom
-     * @param endTo
-     * @return
-     *     returns ru.demo.bankrupts.soap.ws.client.generated.ArrayOfTradePlace
-     */
-    @WebMethod(operationName = "GetTradeMessages", action = "http://tempuri.org/IMessageService/GetTradeMessages")
-    @WebResult(name = "GetTradeMessagesResult", targetNamespace = "http://tempuri.org/")
-    @RequestWrapper(localName = "GetTradeMessages", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessages")
-    @ResponseWrapper(localName = "GetTradeMessagesResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesResponse")
-    public ArrayOfTradePlace getTradeMessages(
-        @WebParam(name = "startFrom", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar startFrom,
-        @WebParam(name = "endTo", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar endTo);
-
-    /**
-     * 
-     * @param startFrom
-     * @param endTo
-     * @param id
-     * @param tradePlaceInn
-     * @return
-     *     returns ru.demo.bankrupts.soap.ws.client.generated.ArrayOfTradePlace
-     */
-    @WebMethod(operationName = "GetTradeMessagesByTrade", action = "http://tempuri.org/IMessageService/GetTradeMessagesByTrade")
-    @WebResult(name = "GetTradeMessagesByTradeResult", targetNamespace = "http://tempuri.org/")
-    @RequestWrapper(localName = "GetTradeMessagesByTrade", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesByTrade")
-    @ResponseWrapper(localName = "GetTradeMessagesByTradeResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesByTradeResponse")
-    public ArrayOfTradePlace getTradeMessagesByTrade(
-        @WebParam(name = "startFrom", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar startFrom,
-        @WebParam(name = "endTo", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar endTo,
-        @WebParam(name = "id", targetNamespace = "http://tempuri.org/")
-        String id,
-        @WebParam(name = "tradePlaceInn", targetNamespace = "http://tempuri.org/")
-        String tradePlaceInn);
+//    /**
+//     *
+//     * @param startFrom
+//     * @param endTo
+//     * @return
+//     *     returns ru.demo.bankrupts.soap.ws.client.generated.ArrayOfTradePlace
+//     */
+//    @WebMethod(operationName = "GetTradeMessages", action = "http://tempuri.org/IMessageService/GetTradeMessages")
+//    @WebResult(name = "GetTradeMessagesResult", targetNamespace = "http://tempuri.org/")
+//    @RequestWrapper(localName = "GetTradeMessages", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessages")
+//    @ResponseWrapper(localName = "GetTradeMessagesResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesResponse")
+//    public ArrayOfTradePlace getTradeMessages(
+//        @WebParam(name = "startFrom", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar startFrom,
+//        @WebParam(name = "endTo", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar endTo);
+//
+//    /**
+//     *
+//     * @param startFrom
+//     * @param endTo
+//     * @param id
+//     * @param tradePlaceInn
+//     * @return
+//     *     returns ru.demo.bankrupts.soap.ws.client.generated.ArrayOfTradePlace
+//     */
+//    @WebMethod(operationName = "GetTradeMessagesByTrade", action = "http://tempuri.org/IMessageService/GetTradeMessagesByTrade")
+//    @WebResult(name = "GetTradeMessagesByTradeResult", targetNamespace = "http://tempuri.org/")
+//    @RequestWrapper(localName = "GetTradeMessagesByTrade", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesByTrade")
+//    @ResponseWrapper(localName = "GetTradeMessagesByTradeResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetTradeMessagesByTradeResponse")
+//    public ArrayOfTradePlace getTradeMessagesByTrade(
+//        @WebParam(name = "startFrom", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar startFrom,
+//        @WebParam(name = "endTo", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar endTo,
+//        @WebParam(name = "id", targetNamespace = "http://tempuri.org/")
+//        String id,
+//        @WebParam(name = "tradePlaceInn", targetNamespace = "http://tempuri.org/")
+//        String tradePlaceInn);
 
     /**
      * 
@@ -137,33 +137,33 @@ public interface IMessageService {
         @WebParam(name = "date", targetNamespace = "http://tempuri.org/")
         XMLGregorianCalendar date);
 
-    /**
-     * 
-     * @param date
-     * @return
-     *     returns ru.demo.bankrupts.soap.ws.client.generated.TradeOrganizerList
-     */
-    @WebMethod(operationName = "GetCompanyTradeOrganizerRegister", action = "http://tempuri.org/IMessageService/GetCompanyTradeOrganizerRegister")
-    @WebResult(name = "GetCompanyTradeOrganizerRegisterResult", targetNamespace = "http://tempuri.org/")
-    @RequestWrapper(localName = "GetCompanyTradeOrganizerRegister", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetCompanyTradeOrganizerRegister")
-    @ResponseWrapper(localName = "GetCompanyTradeOrganizerRegisterResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetCompanyTradeOrganizerRegisterResponse")
-    public TradeOrganizerList getCompanyTradeOrganizerRegister(
-        @WebParam(name = "date", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar date);
+//    /**
+//     *
+//     * @param date
+//     * @return
+//     *     returns ru.demo.bankrupts.soap.ws.client.generated.TradeOrganizerList
+//     */
+//    @WebMethod(operationName = "GetCompanyTradeOrganizerRegister", action = "http://tempuri.org/IMessageService/GetCompanyTradeOrganizerRegister")
+//    @WebResult(name = "GetCompanyTradeOrganizerRegisterResult", targetNamespace = "http://tempuri.org/")
+//    @RequestWrapper(localName = "GetCompanyTradeOrganizerRegister", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetCompanyTradeOrganizerRegister")
+//    @ResponseWrapper(localName = "GetCompanyTradeOrganizerRegisterResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetCompanyTradeOrganizerRegisterResponse")
+//    public TradeOrganizerList getCompanyTradeOrganizerRegister(
+//        @WebParam(name = "date", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar date);
 
-    /**
-     * 
-     * @param date
-     * @return
-     *     returns ru.demo.bankrupts.soap.ws.client.generated.SROList
-     */
-    @WebMethod(operationName = "GetSroRegister", action = "http://tempuri.org/IMessageService/GetSroRegister")
-    @WebResult(name = "GetSroRegisterResult", targetNamespace = "http://tempuri.org/")
-    @RequestWrapper(localName = "GetSroRegister", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetSroRegister")
-    @ResponseWrapper(localName = "GetSroRegisterResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetSroRegisterResponse")
-    public SROList getSroRegister(
-        @WebParam(name = "date", targetNamespace = "http://tempuri.org/")
-        XMLGregorianCalendar date);
+//    /**
+//     *
+//     * @param date
+//     * @return
+//     *     returns ru.demo.bankrupts.soap.ws.client.generated.SROList
+//     */
+//    @WebMethod(operationName = "GetSroRegister", action = "http://tempuri.org/IMessageService/GetSroRegister")
+//    @WebResult(name = "GetSroRegisterResult", targetNamespace = "http://tempuri.org/")
+//    @RequestWrapper(localName = "GetSroRegister", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetSroRegister")
+//    @ResponseWrapper(localName = "GetSroRegisterResponse", targetNamespace = "http://tempuri.org/", className = "ru.demo.bankrupts.soap.ws.client.generated.GetSroRegisterResponse")
+//    public SROList getSroRegister(
+//        @WebParam(name = "date", targetNamespace = "http://tempuri.org/")
+//        XMLGregorianCalendar date);
 
     /**
      * 
