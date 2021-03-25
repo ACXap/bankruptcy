@@ -67,29 +67,29 @@ public class ObjectFactory {
         return new GetMessageContentResponse();
     }
 
-    /**
-     * Create an instance of {@link GetTradeMessageContent }
-     * 
-     */
-    public GetTradeMessageContent createGetTradeMessageContent() {
-        return new GetTradeMessageContent();
-    }
-
-    /**
-     * Create an instance of {@link GetTradeMessageContentResponse }
-     * 
-     */
-    public GetTradeMessageContentResponse createGetTradeMessageContentResponse() {
-        return new GetTradeMessageContentResponse();
-    }
-
-    /**
-     * Create an instance of {@link GetTradeMessages }
-     * 
-     */
-    public GetTradeMessages createGetTradeMessages() {
-        return new GetTradeMessages();
-    }
+//    /**
+//     * Create an instance of {@link GetTradeMessageContent }
+//     *
+//     */
+//    public GetTradeMessageContent createGetTradeMessageContent() {
+//        return new GetTradeMessageContent();
+//    }
+//
+//    /**
+//     * Create an instance of {@link GetTradeMessageContentResponse }
+//     *
+//     */
+//    public GetTradeMessageContentResponse createGetTradeMessageContentResponse() {
+//        return new GetTradeMessageContentResponse();
+//    }
+//
+//    /**
+//     * Create an instance of {@link GetTradeMessages }
+//     *
+//     */
+//    public GetTradeMessages createGetTradeMessages() {
+//        return new GetTradeMessages();
+//    }
 
 //    /**
 //     * Create an instance of {@link GetTradeMessagesResponse }
@@ -107,13 +107,13 @@ public class ObjectFactory {
 //        return new ArrayOfTradePlace();
 //    }
 
-    /**
-     * Create an instance of {@link GetTradeMessagesByTrade }
-     * 
-     */
-    public GetTradeMessagesByTrade createGetTradeMessagesByTrade() {
-        return new GetTradeMessagesByTrade();
-    }
+//    /**
+//     * Create an instance of {@link GetTradeMessagesByTrade }
+//     *
+//     */
+//    public GetTradeMessagesByTrade createGetTradeMessagesByTrade() {
+//        return new GetTradeMessagesByTrade();
+//    }
 
 //    /**
 //     * Create an instance of {@link GetTradeMessagesByTradeResponse }
@@ -171,13 +171,13 @@ public class ObjectFactory {
         return new DebtorList();
     }
 
-    /**
-     * Create an instance of {@link GetCompanyTradeOrganizerRegister }
-     * 
-     */
-    public GetCompanyTradeOrganizerRegister createGetCompanyTradeOrganizerRegister() {
-        return new GetCompanyTradeOrganizerRegister();
-    }
+//    /**
+//     * Create an instance of {@link GetCompanyTradeOrganizerRegister }
+//     *
+//     */
+//    public GetCompanyTradeOrganizerRegister createGetCompanyTradeOrganizerRegister() {
+//        return new GetCompanyTradeOrganizerRegister();
+//    }
 
 //    /**
 //     * Create an instance of {@link GetCompanyTradeOrganizerRegisterResponse }

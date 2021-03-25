@@ -9,34 +9,6 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
 
-/**
- * <p>Java class for DebtorRegisterItem complex type.
- * 
- * <p>The following schema fragment specifies the expected content contained within this class.
- * 
- * <pre>
- * &lt;complexType name="DebtorRegisterItem"&gt;
- *   &lt;complexContent&gt;
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *       &lt;sequence&gt;
- *         &lt;element name="LastMessageDate" type="{http://www.w3.org/2001/XMLSchema}dateTime"/&gt;
- *         &lt;element name="LastReportDate" type="{http://www.w3.org/2001/XMLSchema}dateTime"/&gt;
- *         &lt;element name="LegalCaseList" type="{http://tempuri.org/}ArrayOfLegalCaseInfo" minOccurs="0"/&gt;
- *       &lt;/sequence&gt;
- *       &lt;attribute name="Category" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="CategoryCode" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="Region" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="DateLastModif" use="required" type="{http://www.w3.org/2001/XMLSchema}dateTime" /&gt;
- *       &lt;attribute name="INN" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="BankruptId" use="required" type="{http://www.w3.org/2001/XMLSchema}int" /&gt;
- *       &lt;attribute name="Guid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *     &lt;/restriction&gt;
- *   &lt;/complexContent&gt;
- * &lt;/complexType&gt;
- * </pre>
- * 
- * 
- */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "DebtorRegisterItem", propOrder = {
     "lastMessageDate",

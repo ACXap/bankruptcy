@@ -1,11 +1,9 @@
-
 package com.rt.bankruptcy.repository.soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-
 
 /**
  * <p>Java class for DebtorList complex type.
@@ -58,5 +56,4 @@ public class DebtorList {
     public void setDebtorList(ArrayOfChoice1 value) {
         this.debtorList = value;
     }
-
 }

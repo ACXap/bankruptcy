@@ -1,11 +1,9 @@
-
 package com.rt.bankruptcy.repository.soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
-
 
 /**
  * <p>Java class for anonymous complex type.
@@ -50,5 +48,4 @@ public class GetMessageContent {
     public void setId(int value) {
         this.id = value;
     }
-
 }

@@ -1,17 +1,12 @@
 package com.rt.bankruptcy.repository;
 
-import com.rt.bankruptcy.repository.soap.DebtorCodeType;
-import com.rt.bankruptcy.repository.soap.DebtorList;
-import com.rt.bankruptcy.repository.soap.DebtorRegisterItem;
-import com.rt.bankruptcy.repository.soap.IMessageService;
-import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
+import com.rt.bankruptcy.repository.soap.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -36,8 +31,16 @@ public class RepositoryBankruptcy {
         XMLGregorianCalendar gDateFormatted1 =
                 DatatypeFactory.newInstance().newXMLGregorianCalendar(new SimpleDateFormat("yyyy-MM-dd").format(startDate));
 
-
         String debtorMessagesContentForPeriodByIdBankrupt = messageServiceProxy.getDebtorMessagesContentForPeriodByIdBankrupt(id, gDateFormatted1);
         return debtorMessagesContentForPeriodByIdBankrupt;
     }
+
+   public String getMessage(int id) throws Exception {
+       String messageContent = messageServiceProxy.getMessageContent(1660549);
+
+
+      MessageData deserialize = new XmlService().Deserialize(messageContent, MessageData.class);
+
+       return messageContent;
+   }
 }
