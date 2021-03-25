@@ -9,7 +9,7 @@ public class TestService {
 
     public TestService(RepositoryBankruptcy repository) throws Exception {
 
-        MessageData message = repository.getMessage(1660549);
+        MessageData message = repository.getMessageById(1660549);
 
 //        DebtorRegisterItem debtor = repository.getDebtorByIdBankrupt(138895);
 //
@@ -35,7 +35,5 @@ public class TestService {
 //
 //        String message = repository.getMessage(138895, new Date(0));
 //        System.out.println(message);
-
-
     }
 }

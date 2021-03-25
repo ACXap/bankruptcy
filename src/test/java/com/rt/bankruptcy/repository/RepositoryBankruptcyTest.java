@@ -18,12 +18,11 @@ class RepositoryBankruptcyTest {
 
     @Test
     void getMessage() throws Exception {
-        repo.getMessage(1660549);
-
+        repo.getMessageById(1660549);
     }
 
     @Test
     void testGetMessage() throws Exception {
-        repo.getMessage(138895, new Date(0));
+        repo.getMessageByIdBankrupt(138895, new Date(0));
     }
 }
